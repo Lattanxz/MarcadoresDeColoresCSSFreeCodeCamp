@@ -1,0 +1,63 @@
+h1 {
+  text-align: center;
+}
+
+.marcador {
+  width: 400px;
+  height: 45px;
+  margin: 10px auto;
+}
+
+.rojo {
+  background: linear-gradient(
+    180deg,
+    rgb(127, 47, 57) 0%,
+    rgb(245, 62, 113) 50%,
+    rgb(162, 27, 27) 100%
+  );
+  box-shadow: 0px 0px 20px 0px red;
+}
+
+.verde {
+  background: linear-gradient(
+    180deg,
+    rgb(12, 145, 35) 0%,
+    rgb(50, 200, 78) 50%,
+    rgb(23, 126, 23) 100%
+  );
+  box-shadow: 0px 0px 20px 0px green;
+}
+
+.azul {
+  background: linear-gradient(
+    rgb(12, 35, 145) 0%,
+    rgb(15, 25, 235) 50%,
+    rgb(23, 23, 126) 100%
+  );
+  box-shadow: 0px 0px 20px 0px blue;
+}
+
+.sleeve {
+  width: 250px;
+  height: 45px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgba(0, 0, 0, 0.75);
+}
+
+.cap {
+  width: 60px;
+  height: 25px;
+}
+
+.cap,
+.sleeve {
+  display: inline-block;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background-color: rgb(255, 255, 255);
+}
